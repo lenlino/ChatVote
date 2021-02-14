@@ -39,7 +39,7 @@ public final class Chatvote extends JavaPlugin {
                     n =+ 1;
                     player_list.add(sender.getName());
                     yes_or_no.add("n");
-                    sender.sendMessage("反対票を入れました");
+                    sender.sendMessage("反対票を入れました!");
                     return true;
                 } else {
                     sender.sendMessage("/vote y または n - 投票します");
