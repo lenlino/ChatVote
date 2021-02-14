@@ -1,0 +1,18 @@
+name: Chatvote
+version: ${project.version}
+main: lenlino.com.chatvote.Chatvote
+api-version: 1.16
+authors: [ lenlino ]
+description: chatvote
+commands:
+  votestart:
+    aliases: [vs]
+    description: 投票開始
+    permission: chatvote.start
+    permission-message: 権限がありません
+  vote:
+    description: 投票開始
+  votelist:
+    description: 投票開始
+  voteresult:
+    description: 投票開始
